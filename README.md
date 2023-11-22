@@ -12,4 +12,4 @@ Divisão de tarefas:
     Filipi - footer e sessão "Galeria de fotos & vídeos"
     
 Definição de Atividades:
-    Como no nosso grupo tem pessoas com dificuldade, elas escolheram a parte que se setiam confortáveis pra fazer e depois fomos ajustando com os demais integrantes o que cada um ía fazer.
+    Como no nosso grupo tem pessoas com dificuldade, elas escolheram a parte que se setiam confortáveis pra fazer e depois fomos ajustando com os demais integrantes o que cada um ía fazer. Fazemos os códigos nas partes correspondetes para mergear tudo e entregar o site final.
