@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer li{
+    margin-top: 5px;
+}
+
+footer .right a{
+    color: black;
+}
+
+footer{
+    background: var(--neutras-neve, #F9FAFC);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+footer .top .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+footer .bottom{
+    background: var(--neutras-neve-dark, #EFF2F7);
+}
+
+footer .top img[src="assets/imgs/red-linha.svg"]{
+    margin: 24px 0 8px;
+    max-width: 60px;
+}
+
+footer .left{
+    display: flex;
+    flex-direction: column;
+    color: #C11616;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 160%; 
+}
+
+footer .bottom .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0;
+}
