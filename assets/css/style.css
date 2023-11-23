@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 .midia-galeria{
@@ -16,10 +17,7 @@
     width: 100%;
     justify-content: space-between;
     position: relative;
-}
-
-.midia-galeria .left .container-cards{
-    max-width: 589px;
+    gap: 20px;
 }
 
 .container-cards::after{
@@ -38,7 +36,18 @@
 
 .midia-galeria .media-nav{
     align-self: flex-end;
-    display: inline-block;
+    display: inline-flex;
+    margin-top: 10px;
+    gap: 20px;
+    font-weight: 300;
+    color: #E62121;
+}
+
+.midia-galeria h2{
+    color: #EB5151;
+    font-size: 26px;
+    line-height: 160%;
+    margin-bottom: 8px;
 }
 
 .item-card{
