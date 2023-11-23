@@ -1,3 +1,4 @@
+/*footer_style*/
 *{
     padding: 0;
     margin: 0;
@@ -25,7 +26,7 @@ footer .right a{
 
 footer{
     background: var(--neutras-neve, #F9FAFC);
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    border-top: 1px solid;
 }
 
 footer .top .container{
@@ -60,6 +61,8 @@ footer .bottom .container{
     padding: 14px 0;
 }
 
+/*Header style*/
+
 * {
   margin: 0;
   padding: 0;
@@ -71,26 +74,26 @@ section.body-full {
   flex-direction: column;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&style=italic&display=swap');
-
 main {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   gap: 10px;
   justify-content: center;
+  flex-direction: column;
 }
 
-header {
+header{
   background: #C11616;
+}
+
+header .container{
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 20px;
   justify-content: space-between;
-
 }
 
 .header_title>h2 {
@@ -121,6 +124,17 @@ section.principais_categorias {
 .principais_categorias>a:first-of-type {
   display: flex;
   justify-content: flex-start;
+}
+
+main .body{
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+  margin: 70px auto 90px;
+}
+
+main .body .materia{
+  padding-top: 10px;
 }
 
 .box-categorias>a {
@@ -233,11 +247,19 @@ input#pesquisar {
   border-bottom: solid 1px white;
   width: 200px;
 }
+
+/*Midias_style*/
+
 .midia-galeria{
     display: flex;
     max-width: 1200px;
     width: 100%;
     justify-content: space-between;
+}
+
+.midia-galeria>div{
+  display: flex;
+  gap: 18px;
 }
 
 .container-cards{
