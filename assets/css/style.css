@@ -125,6 +125,7 @@ main .body{
   align-items: flex-start;
   gap: 22px;
   margin: 70px auto 90px;
+  width: auto;
 }
 
 main .body .materia{
